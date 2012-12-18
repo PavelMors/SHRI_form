@@ -1,0 +1,33 @@
+body {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Trebuchet MS", Helvetica, Sans-Serif;
+}
+
+.accordion {
+    margin: 50px auto;
+}
+
+.accordion li {
+    list-style-type: none;
+    padding: 0 5px;
+}
+
+.accordion li h1{
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    background-color: #b3b3b3;
+    cursor: pointer;
+}
+
+.accordion li .conteiner{
+    height: 150px;
+    vertical-align: top;
+    background-color: #808080;
+}
+
+.accordion li h1.active{
+    background-color: #e3e3e3;
+}
