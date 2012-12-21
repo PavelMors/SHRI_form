@@ -1,11 +1,6 @@
 $(document).ready(function(){
     // Hide all h1 except the first
-    $('.accordion li > .conteiner:gt(0)').hide();
-
-    // Add padding to the first h1
-    $('.accordion li > h1:first').addClass('active').animate( {
-        paddingLeft:"40px"
-    } );
+    $('.accordion li > .conteiner').hide();
 
     // Click event
     $('.accordion li > h1').click( function() {
@@ -35,6 +30,5 @@ $(document).ready(function(){
             paddingLeft:"20px"
         } );
 
-
-    } );
+   } );
 });
