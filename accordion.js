@@ -30,6 +30,5 @@ $(document).ready(function(){
             paddingLeft:"20px"
         } );
 
-
-    } );
+   } );
 });
