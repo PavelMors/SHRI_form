@@ -1,0 +1,13 @@
+
+@font-face {
+    font-family: 'Calibri';
+    src: local('Calibri'),local('Calibri');
+    src: url('calibri.eot');
+    src: url('calibri.eot?#iefix') format('embedded-opentype'),
+         url('calibri.ttf') format('truetype'),
+         url('calibri.woff') format('woff'),
+         url('calibri.TTF.svg#Calibri') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
