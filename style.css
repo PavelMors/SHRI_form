@@ -67,8 +67,8 @@ body {
 
 .accordion li li .question{
     margin:15px 20px 5px 20px;
-    font-style: italic;
     font-size: 16px;
+    font-family: Calibri-italic;
 }
 
 .accordion li li .answer{
