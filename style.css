@@ -1,33 +1,101 @@
 body {
     text-align: justify;
-    font-size: 14px;
     line-height: 24px;
-    font-family: "Trebuchet MS", Helvetica, Sans-Serif;
+    font:16px Calibri,Arial,Helvetica, Sans-Serif;
+    background: url("i/background_3.gif") 0 0;
+    color:#323232;
+    width: 80%;
+    margin: 0 auto;
+    min-width: 800px;
+    position: relative;
+}
+
+.header{
+    font-size: 28px;
+    text-align: right;
+    margin: 20px 80px 0 0;
+    color:#000;
 }
 
 .accordion {
-    margin: 50px auto;
+    margin: 20px auto;
+    /*    box-shadow: 0px 0px 2px #242424;*/
+    border: 1px solid #c8c8c8;
+}
+
+.accordion a{
+    color:#323232;
+}
+
+.accordion ul{
+    margin: 0;
+    padding: 0;
 }
 
 .accordion li {
     list-style-type: none;
-    padding: 0 5px;
-}
-
-.accordion li h1{
-    margin: 0;
-    padding: 0;
-    height: 50px;
-    background-color: #b3b3b3;
-    cursor: pointer;
 }
 
 .accordion li .conteiner{
-    height: 150px;
+    height:100%;
     vertical-align: top;
-    background-color: #808080;
+    background-color: #eee;
+    overflow: hidden;
 }
 
 .accordion li h1.active{
     background-color: #e3e3e3;
+    border-top: none;
+}
+.accordion li h1{
+    margin: 0;
+    padding: 15px 15px 15px 20px;
+    background: /*url(i/background.gif)*/ #eee 0 0;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: normal;
+    border-top: 1px solid #e3e3e3;
+}
+
+.accordion li li{
+    margin:0;
+}
+
+.accordion li li:last-child{
+    margin-bottom: 15px;
+}
+
+.accordion li li .question{
+    margin:15px 20px 5px 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.accordion li li .answer{
+    margin: 5px 20px 5px 40px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.accordion li li ul{
+    margin: 0;
+    padding: 0;
+}
+
+.accordion li li li{
+    list-style: none outside;
+    position: relative;
+}
+
+.accordion li li li:before{
+    content: ".";
+    position: absolute;
+    font-weight: bold;
+    top:-5px;
+    left:-10px;
+}
+
+.footer{
+    margin: 20px 22px 0 0;
+    text-align: right;
 }

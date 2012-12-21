@@ -3,28 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css" media="all">
-    <title>Резюме</title>
+    <link rel="stylesheet" type="text/css" href="font/font.css" media="all">
+    <title>Анкета</title>
 </head>
 <body>
+<div class="header">Анкета</div>
 <div class="accordion">
     <ul>
         <li>
-            <h1>Секция #1</h1>
-            <div class="conteiner">Текст для секции #1</div>
+            <h1>Общие вопросы</h1>
+            <div class="conteiner">
+                <ul>
+                    <li>
+                        <div class="question">Фамилия, имя, отчество</div>
+                        <div class="answer">Москаленко Павел Игоревич</div>
+                    </li>
+                    <li>
+                        <div class="question">Год рождения</div>
+                        <div class="answer">1987</div>
+                    </li>
+                    <li>
+                        <div class="question">Город, в котором живёте</div>
+                        <div class="answer">Симферополь</div>
+                    </li>
+                    <li>
+                        <div class="question">Вуз, факультет, специальность, кафедра</div>
+                        <div class="answer">НАПКС, факультет экономики и менеджмента, экономическая кибернетика</div>
+                    </li>
+                    <li>
+                        <div class="question">Год окончания вуза</div>
+                        <div class="answer">2009</div>
+                    </li>
+                    <li>
+                        <div class="question">Уровень владения английским языком</div>
+                        <div class="answer">Средний</div>
+                    </li>
+                </ul>
+            </div>
         </li>
         <li>
-            <h1>Секция #2</h1>
-            <div class="conteiner">Текст для секции #2</div>
+            <h1>Вопросы о ШРИ</h1>
+            <div class="conteiner">
+                <ul>
+                    <li>
+                        <div class="question">Чего вы ожидаете от участия в Школе?</div>
+                        <div class="answer">
+                            <ul>
+                                <li>получение новых навыков и знаний;</li>
+                                <li>«расстановка точек над i» в имеющихся знаниях;</li>
+                                <li>возможность дальнейшей работы/стажировки в команде Яндекс.</li>
+                            </ul></div>
+                    </li>
+                    <li>
+                        <div class="question">Откуда вы о нас узнали?</div>
+                        <div class="answer">
+                            <ul>
+                                <li>упоминание о ШРИ на 2-м сезоне школы верстки Яндекс; </li>
+                                <li>клуб БЭМ;</li>
+                                <li>от друзей работающих в вашей компании.</li>
+                            </ul></div>
+                    </li>
+                    <li>
+                        <div class="question">Сколько времени вы готовы уделять стажировке или работе в Яндексе?</div>
+                        <div class="answer">Максимально возможное, для достижения уровня знаний, которым обладают другие
+                            сотрудники компании Яндекс, с перерывом на еду и сон.</div>
+                    </li>
+                </ul>
+            </div>
         </li>
         <li>
-            <h1>Секция #3</h1>
-            <div class="conteiner">Текст для секции #3</div>
+            <h1>Опыт разработки</h1>
+            <div class="conteiner">
+                <ul>
+                    <li>
+                        <div class="question">Расскажите нам о вашем опыте разработки. Ничего не упускайте: это может
+                            быть как серьезный интерфейс, так и просто домашняя страничка.</div>
+                        <div class="answer">
+                            <ul>
+                                <li>дизайн/верстка нескольких сайтов-визиток; </li>
+                                <li>дизайн/верстка шаблонов для CMS WordPress, Joomla;</li>
+                                <li>дизайн/верстка сайта по поиску недвижимости с поддержкой media query
+                                    (к сожалению без релиза).</li>
+                            </ul></div>
+                    </li>
+                    <li>
+                        <div class="question">Какие языки программирования, фреймворки и технологии вы использовали?
+                            Сложились ли у вас личные предпочтения?</div>
+                        <div class="answer">Использовал JS и его фреймверк jquery, но для простых задач.
+                            Нахожусь на стадии изучения.</div>
+                    </li>
+                    <li>
+                        <div class="question">С какими редакторами и средами разработки вы знакомы? Чем обычно пользуетесь?</div>
+                        <div class="answer">
+                            Знаком с Dreamweaver, NodePad++, Web/PhpStorm.<br>Использую Web/PhpStorm.
+                        </div>
+                    </li>
+                    <li>
+                        <div class="question">С какими ОС приходилось сталкиваться? Для каких целей вы их применяли?</div>
+                        <div class="answer">Linux Ubuntu для работы с БЕМ сервером, на 2-м сезоне школы верстки.</div>
+                    </li>
+                    <li>
+                        <div class="question">Приходилось ли вам работать с системами контроля версий? С какими?
+                            Какая из них вам нравится больше всего?</div>
+                        <div class="answer">Работал с GitHub, ей и пользуюсь.</div>
+                    </li>
+                    <li>
+                        <div class="question">Использовали ли вы системы постановки и ведения задач?</div>
+                        <div class="answer">Использовал Redmine.</div>
+                    </li>
+                    <li>
+                        <div class="question">Какие полезные для фронтенд-разработчика ресурсы вы используете и готовы посоветовать?</div>
+                        <div class="answer">
+                            <ul>
+                                <li><a href="http://dabblet.com">dabblet.com</a></li>
+                                <li><a href="http://jsfiddle.net/">jsFiddle</a></li>
+                                <li><a href="https://browserling.com/">browserling</a></li> <li><a href="">dabblet.com</a></li>
+                                <li><a href="http://html5doctor.com/">HTML5 doctor</a></li>
+                                <li><a href="http://lea.verou.me/">CSS3 tools|Lea Verou</a></li>
+                                <li><a href="http://anton.shevchuk.name">Блог Антон Шевчука по разработке</a></li>
+                            </ul></div>
+                    </li>
+                    <li>
+                        <div class="question">Где вы работали раньше? Что именно делали? Есть ли у вас опыт работы в команде?</div>
+                        <div class="answer">Касаемо предметной области занимался Фрилансом. Первое время был только дизайн. Полтора года назад начал верстать.
+                            В основном это были сайты-визитки,шаблоны под СMS, был так же интересный проэкт по созданию сайта-сервиса с поддержкой мультимедийных устройств,работа по нему велась в небольшой команде .</div>
+                    </li>
+                </ul>
+            </div>
         </li>
     </ul>
 
-
 </div>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<div class="footer">Спасибо за внимание.</div>
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>-->
 <script type="text/javascript" src="jquery-1.8.3.min.js"></script>
 <script type="text/javascript" src="accordion.js"></script>
 </body>
